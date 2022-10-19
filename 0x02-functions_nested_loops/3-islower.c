@@ -7,5 +7,5 @@
  */
 int _islower(int c)
 {
-	return (c >= '0' && c <= 'z')oi;
+	return (c >= '0' && c <= 'z');
 }
