@@ -1,18 +1,22 @@
 #include "main.h"
 
 /**
- * print_last_digit -> prints the last digit
- * @n: the passed arguments
- * Return: the last digit
+ * jack_bauer - prints every minite of the day
  */
-int print_last_digit(int n);
-
+void jack_bauer(void)
 {
+	int hour, minit
 
-	int x;
-	if (n < 0)
-		n = -n;
-	x = n % 10;
-	_putchar(x + '0');
-	return (x);
+		for (hour = 0; hour <= 23; hour++)
+	{
+		for (minite = 0; minite <= 59; minite++)
+		{
+			_putchar ((hour / 10) + '0');
+			_putchar ((hour % 10) + '0');
+			_putchar (':');
+			_putchar ((minite / 10) + '0');
+			_putchar ((minite % 10) + '0');
+			_putchar ('\n');
+		}
+	}
 }
