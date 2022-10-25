@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+int _atoi(char *s);
 void _puts(char *str);
 int _strlen(char *s);
 void swap_int(int *a, int *b);
